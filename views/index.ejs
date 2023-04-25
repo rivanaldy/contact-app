@@ -1,0 +1,10 @@
+<h1>web server node js</h1>
+<h2><%= nama %></h2>
+<% if (mhs.length < 1) { %>
+<p>data tidak ada</p>
+<% } %> <% mhs.forEach(mhs => { %>
+<ul>
+  <li>nama:<%= mhs.nama %></li>
+  <li>email:<%= mhs.email %></li>
+</ul>
+<% }) %>
